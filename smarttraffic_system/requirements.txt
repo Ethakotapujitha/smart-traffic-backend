@@ -1,0 +1,6 @@
+Django
+gunicorn
+graphene-django
+django-cors-headers
+gunicorn
+
