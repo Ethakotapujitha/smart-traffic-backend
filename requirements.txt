@@ -1,4 +1,4 @@
-Django>=4.0
+Django
 gunicorn
-django-cors-headers
 graphene-django
+django-cors-headers
