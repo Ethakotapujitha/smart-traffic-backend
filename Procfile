@@ -1,1 +1,1 @@
-web: gunicorn traffic_system.wsgi
+web: gunicorn traffic_system.wsgi:application
