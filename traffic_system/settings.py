@@ -137,14 +137,14 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8081",  # If testing in web
-    "http://192.168.1.6:8081",  # If your mobile device uses this IP
-    "http://192.168.1.6:8081",     # Another possible IP
+    "http://192.168.1.5:8081",  # If your mobile device uses this IP
+    "http://192.168.1.5:8081",     # Another possible IP
 ]
 
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://192.168.1.6:8081",
-    "http://192.168.1.6:8000",
+    "http://192.168.1.5:8081",
+    "http://192.168.1.5:8000",
 ]
 CORS_ALLOW_ALL_ORIGINS = True  # Temporarily allow all for dev
