@@ -24,11 +24,9 @@ SECRET_KEY = 'django-insecure-$^4-#h=ldwe@q*33iv_05(-_-3b1qlpe0__pr0sm=#kge@fb-m
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = [
-    'smart-traffic-backend.onrender.com',
-    'localhost',
-    '127.0.0.1'
-]
+ALLOWED_HOSTS = ['smart-traffic-backend-production.up.railway.app']
+
+
 
 
 
