@@ -8,7 +8,7 @@ SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']  # or use ['.onrender.com'] when deploying
+ALLOWED_HOSTS = ['.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
