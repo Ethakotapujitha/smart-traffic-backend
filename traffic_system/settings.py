@@ -3,8 +3,10 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+import os
 
-SECRET_KEY = 'your-secret-key'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'your-dev-secret-key')
+
 
 DEBUG = True
 
@@ -106,3 +108,7 @@ GRAPHENE = {
 
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True  # Or restrict if you like
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'https://your-frontend-url.vercel.app',
+]
